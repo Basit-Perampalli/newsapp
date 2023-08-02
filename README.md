@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+**************** MUST DO ******************
+
+Create a .env.local file and write this
+
+REACT_APP_NEWS_API = {paste_your_api_key_here}  <!-- take you api key from news api and just paste here as a string-->
+

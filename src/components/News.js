@@ -75,7 +75,7 @@ export class News extends Component {
 
     async componentDidMount(){
         this.props.setProgress(10)
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=73f6654b07764b9892139030f88c1af5&pageSize=${this.props.pageSize}&page=${this.state.page}`
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&pageSize=${this.props.pageSize}&page=${this.state.page}`
         this.setState({
             loading:true
         })
